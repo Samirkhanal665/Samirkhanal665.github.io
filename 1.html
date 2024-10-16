@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Tag</title>
+</head>
+<body>
+    Registration form: <br>
+    <form action="submit.php" method="POST">
+         Username: <input type="text" name="username"> <br>
+         Password: <input type="password" name="password"> <br>
+          Full Name: <input type="text" name="text"> <br>
+          Gender: <input type="radio" name="gender" value="m"> Male
+          <input type="radio" name="gender" value="f"> Female <br>
+          Date of birth: <input type="date" name="birthday" min="1920-01-01" max="2024-09-12" required> <br>
+          Phone Number: <input type="number" name="number" placeholder="010-1234-5678"> </form> <br>
+          Nationality: <input type="text" name="Nationality">
+          <select name="Nationality" multiple size="1">
+            <option value="Nepal">Nepal</option>
+            <option value="Korea">Banana</Korea>
+            <option value="Bangladesh">Orange</Bangladesh>
+            <option value="Pakistan">Pakistan</option>
+        </select> <br>       
+        Korean Address: <form action="submit.php" method="POST">
+            <textarea name="text" rows="4" cols="40" placeholder=""></textarea><br>
+            Preferred part time job: <br>
+            <input type="checkbox" name="job" value="Restarurant Serving"> Restarurant Serving <br>
+<input type="checkbox" name="job" value="Kitchen"> Kitchen <br>
+<input type="checkbox" name="job" value="Factory work"> Factory work <br>
+<input type="checkbox" name="job" value="Laborer"> Laborer <br>
+<input type="submit" value="Register">&nbsp;<input type="reset" value="Reset">
+</body>
+</html>
